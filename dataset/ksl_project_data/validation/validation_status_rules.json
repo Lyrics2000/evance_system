@@ -1,0 +1,26 @@
+{
+  "general_acceptance": {
+    "accepted": {
+      "mean_score_minimum": 4.0,
+      "percentage_agreement_minimum": 75
+    },
+    "accepted_with_revision": {
+      "mean_score_minimum": 3.5,
+      "percentage_agreement_minimum": 60
+    },
+    "needs_major_revision": {
+      "mean_score_below": 3.5,
+      "percentage_agreement_below": 60
+    }
+  },
+  "high_risk_phrase_acceptance": {
+    "required_reviews": [
+      "ksl_interpreter",
+      "healthcare_worker",
+      "deaf_user"
+    ],
+    "minimum_mean_score": 4.2,
+    "minimum_percentage_agreement": 80,
+    "requires_manual_confirmation": true
+  }
+}

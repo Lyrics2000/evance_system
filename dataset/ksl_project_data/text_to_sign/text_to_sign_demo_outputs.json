@@ -1,0 +1,185 @@
+[
+  {
+    "input_text": "Where is the pain?",
+    "matched_text": "Where is the pain?",
+    "gloss": "pain where",
+    "domain": "triage",
+    "priority": "critical",
+    "phrase_id": 1,
+    "match_type": "exact",
+    "score": 1.0,
+    "sign_assets": [
+      {
+        "order": 1,
+        "gloss_token": "pain",
+        "asset_path": "assets/signs/pain.mp4",
+        "avatar_motion_path": "assets/avatar_motions/pain.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "where",
+        "asset_path": "assets/signs/where.mp4",
+        "avatar_motion_path": "assets/avatar_motions/where.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  {
+    "input_text": "Do you feel chest pain?",
+    "matched_text": "Do you have chest pain?",
+    "gloss": "you chest pain have",
+    "domain": "emergency",
+    "priority": "critical",
+    "phrase_id": 2,
+    "match_type": "fuzzy",
+    "score": 0.6666666666666666,
+    "sign_assets": [
+      {
+        "order": 1,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "chest",
+        "asset_path": "assets/signs/chest.mp4",
+        "avatar_motion_path": "assets/avatar_motions/chest.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "pain",
+        "asset_path": "assets/signs/pain.mp4",
+        "avatar_motion_path": "assets/avatar_motions/pain.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "have",
+        "asset_path": "assets/signs/have.mp4",
+        "avatar_motion_path": "assets/avatar_motions/have.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  {
+    "input_text": "Are you allergic to medicine?",
+    "matched_text": "Are you allergic to any medicine?",
+    "gloss": "medicine allergy you",
+    "domain": "medicine",
+    "priority": "critical",
+    "phrase_id": 3,
+    "match_type": "fuzzy",
+    "score": 0.8333333333333334,
+    "sign_assets": [
+      {
+        "order": 1,
+        "gloss_token": "medicine",
+        "asset_path": "assets/signs/medicine.mp4",
+        "avatar_motion_path": "assets/avatar_motions/medicine.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "allergy",
+        "asset_path": "assets/signs/allergy.mp4",
+        "avatar_motion_path": "assets/avatar_motions/allergy.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  {
+    "input_text": "Take this medicine twice a day.",
+    "matched_text": "Take this medicine twice a day.",
+    "gloss": "medicine take day two",
+    "domain": "pharmacy",
+    "priority": "important",
+    "phrase_id": 4,
+    "match_type": "exact",
+    "score": 1.0,
+    "sign_assets": [
+      {
+        "order": 1,
+        "gloss_token": "medicine",
+        "asset_path": "assets/signs/medicine.mp4",
+        "avatar_motion_path": "assets/avatar_motions/medicine.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "take",
+        "asset_path": "assets/signs/take.mp4",
+        "avatar_motion_path": "assets/avatar_motions/take.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "day",
+        "asset_path": "assets/signs/day.mp4",
+        "avatar_motion_path": "assets/avatar_motions/day.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "two",
+        "asset_path": "assets/signs/two.mp4",
+        "avatar_motion_path": "assets/avatar_motions/two.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  {
+    "input_text": "Please wait for doctor.",
+    "matched_text": "Please wait for the doctor.",
+    "gloss": "doctor wait please",
+    "domain": "reception",
+    "priority": "normal",
+    "phrase_id": 6,
+    "match_type": "fuzzy",
+    "score": 0.8,
+    "sign_assets": [
+      {
+        "order": 1,
+        "gloss_token": "doctor",
+        "asset_path": "assets/signs/doctor.mp4",
+        "avatar_motion_path": "assets/avatar_motions/doctor.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "wait",
+        "asset_path": "assets/signs/wait.mp4",
+        "avatar_motion_path": "assets/avatar_motions/wait.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "please",
+        "asset_path": "assets/signs/please.mp4",
+        "avatar_motion_path": "assets/avatar_motions/please.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  {
+    "input_text": "Unknown sentence not available.",
+    "matched_text": null,
+    "gloss": "UNKNOWN_PHRASE",
+    "domain": null,
+    "priority": null,
+    "phrase_id": null,
+    "match_type": "no_fuzzy_match",
+    "score": 0.0,
+    "sign_assets": []
+  }
+]

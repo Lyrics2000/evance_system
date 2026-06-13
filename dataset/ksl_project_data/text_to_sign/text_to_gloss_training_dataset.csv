@@ -1,0 +1,21 @@
+input_text,target_gloss,domain,priority
+convert healthcare text to ksl gloss: Where is the pain?,pain where,triage,critical
+convert healthcare text to ksl gloss: Do you have chest pain?,you chest pain have,emergency,critical
+convert healthcare text to ksl gloss: Are you allergic to any medicine?,medicine allergy you,medicine,critical
+convert healthcare text to ksl gloss: Take this medicine twice a day.,medicine take day two,pharmacy,important
+convert healthcare text to ksl gloss: Come back after one week.,come back week one,follow_up,normal
+convert healthcare text to ksl gloss: Please wait for the doctor.,doctor wait please,reception,normal
+convert healthcare text to ksl gloss: Do you have difficulty breathing?,breathing difficult you,emergency,critical
+convert healthcare text to ksl gloss: Are you pregnant?,pregnant you,assessment,important
+convert healthcare text to ksl gloss: Have you taken medicine today?,medicine today take you,medicine,important
+convert healthcare text to ksl gloss: Show me where it hurts.,hurt where show me,diagnosis,critical
+convert healthcare text to ksl gloss: Do you have a fever?,fever you have,diagnosis,important
+convert healthcare text to ksl gloss: Do you have a headache?,head pain you,diagnosis,normal
+convert healthcare text to ksl gloss: We need to check your blood pressure.,blood pressure check need,emergency,important
+convert healthcare text to ksl gloss: We need to call an ambulance.,ambulance call need,emergency,critical
+convert healthcare text to ksl gloss: Take the medicine after food.,medicine after food take,pharmacy,important
+convert healthcare text to ksl gloss: Take the medicine before food.,medicine before food take,pharmacy,important
+convert healthcare text to ksl gloss: What is your name?,name your what,reception,normal
+convert healthcare text to ksl gloss: What is your age?,age your what,reception,normal
+convert healthcare text to ksl gloss: Do you have diabetes?,diabetes you have,assessment,important
+convert healthcare text to ksl gloss: You need to be admitted to the hospital.,hospital admit need,assessment,critical

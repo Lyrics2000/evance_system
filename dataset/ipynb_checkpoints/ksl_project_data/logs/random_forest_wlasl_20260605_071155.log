@@ -1,0 +1,17 @@
+2026-06-05 07:11:55,391 | INFO | Random Forest notebook started
+2026-06-05 07:12:04,710 | INFO | Loading WLASL from Hugging Face/FiftyOne hub
+2026-06-05 07:12:05,646 | INFO | Downloading config file fiftyone.yml from Voxel51/WLASL
+2026-06-05 07:12:05,928 | INFO | Loading dataset
+2026-06-05 07:12:16,896 | INFO | Importing samples...
+2026-06-05 07:12:18,129 | INFO |  100% |█████████████| 11980/11980 [622.4ms elapsed, 0s remaining, 19.2K samples/s]      
+2026-06-05 07:12:18,133 | INFO | Importing frames...
+2026-06-05 07:12:50,934 | INFO |  100% |███████████| 828093/828093 [21.2s elapsed, 0s remaining, 37.2K samples/s]      
+2026-06-05 07:12:51,008 | INFO | Migrating dataset 'Voxel51/WLASL' to v1.3.2
+2026-06-05 07:12:52,298 | INFO | Downloading 11980 media files...
+2026-06-05 07:18:01,298 | INFO | Extracting Random Forest features
+2026-06-05 07:18:06,849 | INFO | Extracting Random Forest features
+2026-06-05 07:18:13,746 | INFO | Extracting Random Forest features
+2026-06-05 07:18:17,354 | INFO | Training Random Forest model
+2026-06-05 07:18:44,526 | INFO | Loading existing local WLASL dataset
+2026-06-05 07:18:44,544 | INFO | Dataset loaded: Voxel51/WLASL
+2026-06-05 07:18:44,547 | INFO | Total samples: 11980

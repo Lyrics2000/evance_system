@@ -1,0 +1,19 @@
+{
+  "model": "RandomForestClassifier",
+  "dataset": "Voxel51/WLASL",
+  "selected_classes": [
+    "accident",
+    "before",
+    "computer",
+    "cool",
+    "cousin",
+    "drink"
+  ],
+  "feature_type": "MediaPipe Holistic landmarks summarized by mean/std/min/max",
+  "num_samples": 79,
+  "num_features": 6516,
+  "accuracy": 0.35,
+  "weighted_precision": 0.31785714285714284,
+  "weighted_recall": 0.35,
+  "weighted_f1": 0.31238095238095237
+}

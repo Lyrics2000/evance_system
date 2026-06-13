@@ -1,0 +1,644 @@
+{
+  "where is the pain": {
+    "healthcare_text": "Where is the pain?",
+    "gloss": "pain where",
+    "domain": "triage",
+    "priority": "critical",
+    "phrase_id": 1,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "pain",
+        "asset_path": "assets/signs/pain.mp4",
+        "avatar_motion_path": "assets/avatar_motions/pain.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "where",
+        "asset_path": "assets/signs/where.mp4",
+        "avatar_motion_path": "assets/avatar_motions/where.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "do you have chest pain": {
+    "healthcare_text": "Do you have chest pain?",
+    "gloss": "you chest pain have",
+    "domain": "emergency",
+    "priority": "critical",
+    "phrase_id": 2,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "chest",
+        "asset_path": "assets/signs/chest.mp4",
+        "avatar_motion_path": "assets/avatar_motions/chest.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "pain",
+        "asset_path": "assets/signs/pain.mp4",
+        "avatar_motion_path": "assets/avatar_motions/pain.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "have",
+        "asset_path": "assets/signs/have.mp4",
+        "avatar_motion_path": "assets/avatar_motions/have.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "are you allergic to any medicine": {
+    "healthcare_text": "Are you allergic to any medicine?",
+    "gloss": "medicine allergy you",
+    "domain": "medicine",
+    "priority": "critical",
+    "phrase_id": 3,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "medicine",
+        "asset_path": "assets/signs/medicine.mp4",
+        "avatar_motion_path": "assets/avatar_motions/medicine.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "allergy",
+        "asset_path": "assets/signs/allergy.mp4",
+        "avatar_motion_path": "assets/avatar_motions/allergy.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "take this medicine twice a day": {
+    "healthcare_text": "Take this medicine twice a day.",
+    "gloss": "medicine take day two",
+    "domain": "pharmacy",
+    "priority": "important",
+    "phrase_id": 4,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "medicine",
+        "asset_path": "assets/signs/medicine.mp4",
+        "avatar_motion_path": "assets/avatar_motions/medicine.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "take",
+        "asset_path": "assets/signs/take.mp4",
+        "avatar_motion_path": "assets/avatar_motions/take.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "day",
+        "asset_path": "assets/signs/day.mp4",
+        "avatar_motion_path": "assets/avatar_motions/day.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "two",
+        "asset_path": "assets/signs/two.mp4",
+        "avatar_motion_path": "assets/avatar_motions/two.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "come back after one week": {
+    "healthcare_text": "Come back after one week.",
+    "gloss": "come back week one",
+    "domain": "follow_up",
+    "priority": "normal",
+    "phrase_id": 5,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "come",
+        "asset_path": "assets/signs/come.mp4",
+        "avatar_motion_path": "assets/avatar_motions/come.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "back",
+        "asset_path": "assets/signs/back.mp4",
+        "avatar_motion_path": "assets/avatar_motions/back.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "week",
+        "asset_path": "assets/signs/week.mp4",
+        "avatar_motion_path": "assets/avatar_motions/week.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "one",
+        "asset_path": "assets/signs/one.mp4",
+        "avatar_motion_path": "assets/avatar_motions/one.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "please wait for the doctor": {
+    "healthcare_text": "Please wait for the doctor.",
+    "gloss": "doctor wait please",
+    "domain": "reception",
+    "priority": "normal",
+    "phrase_id": 6,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "doctor",
+        "asset_path": "assets/signs/doctor.mp4",
+        "avatar_motion_path": "assets/avatar_motions/doctor.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "wait",
+        "asset_path": "assets/signs/wait.mp4",
+        "avatar_motion_path": "assets/avatar_motions/wait.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "please",
+        "asset_path": "assets/signs/please.mp4",
+        "avatar_motion_path": "assets/avatar_motions/please.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "do you have difficulty breathing": {
+    "healthcare_text": "Do you have difficulty breathing?",
+    "gloss": "breathing difficult you",
+    "domain": "emergency",
+    "priority": "critical",
+    "phrase_id": 7,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "breathing",
+        "asset_path": "assets/signs/breathing.mp4",
+        "avatar_motion_path": "assets/avatar_motions/breathing.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "difficult",
+        "asset_path": "assets/signs/difficult.mp4",
+        "avatar_motion_path": "assets/avatar_motions/difficult.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "are you pregnant": {
+    "healthcare_text": "Are you pregnant?",
+    "gloss": "pregnant you",
+    "domain": "assessment",
+    "priority": "important",
+    "phrase_id": 8,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "pregnant",
+        "asset_path": "assets/signs/pregnant.mp4",
+        "avatar_motion_path": "assets/avatar_motions/pregnant.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "have you taken medicine today": {
+    "healthcare_text": "Have you taken medicine today?",
+    "gloss": "medicine today take you",
+    "domain": "medicine",
+    "priority": "important",
+    "phrase_id": 9,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "medicine",
+        "asset_path": "assets/signs/medicine.mp4",
+        "avatar_motion_path": "assets/avatar_motions/medicine.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "today",
+        "asset_path": "assets/signs/today.mp4",
+        "avatar_motion_path": "assets/avatar_motions/today.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "take",
+        "asset_path": "assets/signs/take.mp4",
+        "avatar_motion_path": "assets/avatar_motions/take.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "show me where it hurts": {
+    "healthcare_text": "Show me where it hurts.",
+    "gloss": "hurt where show me",
+    "domain": "diagnosis",
+    "priority": "critical",
+    "phrase_id": 10,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "hurt",
+        "asset_path": "assets/signs/hurt.mp4",
+        "avatar_motion_path": "assets/avatar_motions/hurt.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "where",
+        "asset_path": "assets/signs/where.mp4",
+        "avatar_motion_path": "assets/avatar_motions/where.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "show",
+        "asset_path": "assets/signs/show.mp4",
+        "avatar_motion_path": "assets/avatar_motions/show.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "me",
+        "asset_path": "assets/signs/me.mp4",
+        "avatar_motion_path": "assets/avatar_motions/me.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "do you have a fever": {
+    "healthcare_text": "Do you have a fever?",
+    "gloss": "fever you have",
+    "domain": "diagnosis",
+    "priority": "important",
+    "phrase_id": 11,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "fever",
+        "asset_path": "assets/signs/fever.mp4",
+        "avatar_motion_path": "assets/avatar_motions/fever.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "have",
+        "asset_path": "assets/signs/have.mp4",
+        "avatar_motion_path": "assets/avatar_motions/have.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "do you have a headache": {
+    "healthcare_text": "Do you have a headache?",
+    "gloss": "head pain you",
+    "domain": "diagnosis",
+    "priority": "normal",
+    "phrase_id": 12,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "head",
+        "asset_path": "assets/signs/head.mp4",
+        "avatar_motion_path": "assets/avatar_motions/head.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "pain",
+        "asset_path": "assets/signs/pain.mp4",
+        "avatar_motion_path": "assets/avatar_motions/pain.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "we need to check your blood pressure": {
+    "healthcare_text": "We need to check your blood pressure.",
+    "gloss": "blood pressure check need",
+    "domain": "emergency",
+    "priority": "important",
+    "phrase_id": 13,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "blood",
+        "asset_path": "assets/signs/blood.mp4",
+        "avatar_motion_path": "assets/avatar_motions/blood.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "pressure",
+        "asset_path": "assets/signs/pressure.mp4",
+        "avatar_motion_path": "assets/avatar_motions/pressure.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "check",
+        "asset_path": "assets/signs/check.mp4",
+        "avatar_motion_path": "assets/avatar_motions/check.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "need",
+        "asset_path": "assets/signs/need.mp4",
+        "avatar_motion_path": "assets/avatar_motions/need.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "we need to call an ambulance": {
+    "healthcare_text": "We need to call an ambulance.",
+    "gloss": "ambulance call need",
+    "domain": "emergency",
+    "priority": "critical",
+    "phrase_id": 14,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "ambulance",
+        "asset_path": "assets/signs/ambulance.mp4",
+        "avatar_motion_path": "assets/avatar_motions/ambulance.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "call",
+        "asset_path": "assets/signs/call.mp4",
+        "avatar_motion_path": "assets/avatar_motions/call.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "need",
+        "asset_path": "assets/signs/need.mp4",
+        "avatar_motion_path": "assets/avatar_motions/need.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "take the medicine after food": {
+    "healthcare_text": "Take the medicine after food.",
+    "gloss": "medicine after food take",
+    "domain": "pharmacy",
+    "priority": "important",
+    "phrase_id": 15,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "medicine",
+        "asset_path": "assets/signs/medicine.mp4",
+        "avatar_motion_path": "assets/avatar_motions/medicine.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "after",
+        "asset_path": "assets/signs/after.mp4",
+        "avatar_motion_path": "assets/avatar_motions/after.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "food",
+        "asset_path": "assets/signs/food.mp4",
+        "avatar_motion_path": "assets/avatar_motions/food.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "take",
+        "asset_path": "assets/signs/take.mp4",
+        "avatar_motion_path": "assets/avatar_motions/take.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "take the medicine before food": {
+    "healthcare_text": "Take the medicine before food.",
+    "gloss": "medicine before food take",
+    "domain": "pharmacy",
+    "priority": "important",
+    "phrase_id": 16,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "medicine",
+        "asset_path": "assets/signs/medicine.mp4",
+        "avatar_motion_path": "assets/avatar_motions/medicine.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "before",
+        "asset_path": "assets/signs/before.mp4",
+        "avatar_motion_path": "assets/avatar_motions/before.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "food",
+        "asset_path": "assets/signs/food.mp4",
+        "avatar_motion_path": "assets/avatar_motions/food.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 4,
+        "gloss_token": "take",
+        "asset_path": "assets/signs/take.mp4",
+        "avatar_motion_path": "assets/avatar_motions/take.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "what is your name": {
+    "healthcare_text": "What is your name?",
+    "gloss": "name your what",
+    "domain": "reception",
+    "priority": "normal",
+    "phrase_id": 17,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "name",
+        "asset_path": "assets/signs/name.mp4",
+        "avatar_motion_path": "assets/avatar_motions/name.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "your",
+        "asset_path": "assets/signs/your.mp4",
+        "avatar_motion_path": "assets/avatar_motions/your.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "what",
+        "asset_path": "assets/signs/what.mp4",
+        "avatar_motion_path": "assets/avatar_motions/what.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "what is your age": {
+    "healthcare_text": "What is your age?",
+    "gloss": "age your what",
+    "domain": "reception",
+    "priority": "normal",
+    "phrase_id": 18,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "age",
+        "asset_path": "assets/signs/age.mp4",
+        "avatar_motion_path": "assets/avatar_motions/age.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "your",
+        "asset_path": "assets/signs/your.mp4",
+        "avatar_motion_path": "assets/avatar_motions/your.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "what",
+        "asset_path": "assets/signs/what.mp4",
+        "avatar_motion_path": "assets/avatar_motions/what.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "do you have diabetes": {
+    "healthcare_text": "Do you have diabetes?",
+    "gloss": "diabetes you have",
+    "domain": "assessment",
+    "priority": "important",
+    "phrase_id": 19,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "diabetes",
+        "asset_path": "assets/signs/diabetes.mp4",
+        "avatar_motion_path": "assets/avatar_motions/diabetes.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "you",
+        "asset_path": "assets/signs/you.mp4",
+        "avatar_motion_path": "assets/avatar_motions/you.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "have",
+        "asset_path": "assets/signs/have.mp4",
+        "avatar_motion_path": "assets/avatar_motions/have.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  },
+  "you need to be admitted to the hospital": {
+    "healthcare_text": "You need to be admitted to the hospital.",
+    "gloss": "hospital admit need",
+    "domain": "assessment",
+    "priority": "critical",
+    "phrase_id": 20,
+    "asset_sequence": [
+      {
+        "order": 1,
+        "gloss_token": "hospital",
+        "asset_path": "assets/signs/hospital.mp4",
+        "avatar_motion_path": "assets/avatar_motions/hospital.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 2,
+        "gloss_token": "admit",
+        "asset_path": "assets/signs/admit.mp4",
+        "avatar_motion_path": "assets/avatar_motions/admit.json",
+        "availability_status": "placeholder_needed"
+      },
+      {
+        "order": 3,
+        "gloss_token": "need",
+        "asset_path": "assets/signs/need.mp4",
+        "avatar_motion_path": "assets/avatar_motions/need.json",
+        "availability_status": "placeholder_needed"
+      }
+    ]
+  }
+}

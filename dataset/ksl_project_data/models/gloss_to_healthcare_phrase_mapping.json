@@ -1,0 +1,102 @@
+{
+  "pain where": {
+    "healthcare_text": "Where is the pain?",
+    "domain": "triage",
+    "priority": "critical"
+  },
+  "you chest pain have": {
+    "healthcare_text": "Do you have chest pain?",
+    "domain": "emergency",
+    "priority": "critical"
+  },
+  "medicine allergy you": {
+    "healthcare_text": "Are you allergic to any medicine?",
+    "domain": "medicine",
+    "priority": "critical"
+  },
+  "medicine take day two": {
+    "healthcare_text": "Take this medicine twice a day.",
+    "domain": "pharmacy",
+    "priority": "important"
+  },
+  "come back week one": {
+    "healthcare_text": "Come back after one week.",
+    "domain": "follow_up",
+    "priority": "normal"
+  },
+  "doctor wait please": {
+    "healthcare_text": "Please wait for the doctor.",
+    "domain": "reception",
+    "priority": "normal"
+  },
+  "breathing difficult you": {
+    "healthcare_text": "Do you have difficulty breathing?",
+    "domain": "emergency",
+    "priority": "critical"
+  },
+  "pregnant you": {
+    "healthcare_text": "Are you pregnant?",
+    "domain": "assessment",
+    "priority": "important"
+  },
+  "medicine today take you": {
+    "healthcare_text": "Have you taken medicine today?",
+    "domain": "medicine",
+    "priority": "important"
+  },
+  "hurt where show me": {
+    "healthcare_text": "Show me where it hurts.",
+    "domain": "diagnosis",
+    "priority": "critical"
+  },
+  "fever you have": {
+    "healthcare_text": "Do you have a fever?",
+    "domain": "diagnosis",
+    "priority": "important"
+  },
+  "head pain you": {
+    "healthcare_text": "Do you have a headache?",
+    "domain": "diagnosis",
+    "priority": "normal"
+  },
+  "blood pressure check need": {
+    "healthcare_text": "We need to check your blood pressure.",
+    "domain": "emergency",
+    "priority": "important"
+  },
+  "ambulance call need": {
+    "healthcare_text": "We need to call an ambulance.",
+    "domain": "emergency",
+    "priority": "critical"
+  },
+  "medicine after food take": {
+    "healthcare_text": "Take the medicine after food.",
+    "domain": "pharmacy",
+    "priority": "important"
+  },
+  "medicine before food take": {
+    "healthcare_text": "Take the medicine before food.",
+    "domain": "pharmacy",
+    "priority": "important"
+  },
+  "name your what": {
+    "healthcare_text": "What is your name?",
+    "domain": "reception",
+    "priority": "normal"
+  },
+  "age your what": {
+    "healthcare_text": "What is your age?",
+    "domain": "reception",
+    "priority": "normal"
+  },
+  "diabetes you have": {
+    "healthcare_text": "Do you have diabetes?",
+    "domain": "assessment",
+    "priority": "important"
+  },
+  "hospital admit need": {
+    "healthcare_text": "You need to be admitted to the hospital.",
+    "domain": "assessment",
+    "priority": "critical"
+  }
+}

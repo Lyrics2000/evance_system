@@ -1,0 +1,13 @@
+section,item_id,question,reviewer_group
+Relevance,REL_01,The proposed KSL translation framework addresses an important healthcare communication problem.,all
+Relevance,REL_02,The selected healthcare phrases are relevant to real patient-healthcare worker interactions.,all
+KSL Localization,KSL_01,The gloss/sign representation preserves the intended meaning of the healthcare phrase.,"ksl_interpreter,deaf_user"
+KSL Localization,KSL_02,The phrase can be naturally expressed in Kenyan Sign Language.,"ksl_interpreter,deaf_user"
+Medical Safety,MED_01,The phrase is medically clear and unlikely to cause harmful misunderstanding.,healthcare_worker
+Medical Safety,MED_02,"High-risk phrases such as chest pain, breathing difficulty, and medicine allergy require high translation accuracy.","healthcare_worker,ksl_interpreter"
+Usability,USE_01,The proposed system would be easy for healthcare workers to use during patient interaction.,"healthcare_worker,ict_ai_expert"
+Usability,USE_02,The proposed system would improve communication accessibility for deaf or hard-of-hearing patients.,all
+Technical Feasibility,TECH_01,"The proposed use of video recognition, landmark extraction, and transformer-based translation is technically feasible.","ict_ai_expert,academic_expert"
+Technical Feasibility,TECH_02,The proposed framework can be developed into a practical prototype with sufficient localized KSL training data.,"ict_ai_expert,academic_expert"
+Reliability,RELIA_01,The system should include human review or confirmation for high-risk healthcare phrases.,all
+Adoption,ADOPT_01,Healthcare facilities would benefit from adopting a validated KSL translation support system.,all

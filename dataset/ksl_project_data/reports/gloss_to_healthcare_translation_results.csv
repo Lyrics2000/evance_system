@@ -1,0 +1,11 @@
+expected_gloss,recognized_gloss,expected_text,exact_prediction,fuzzy_prediction,fuzzy_score,matched_gloss,exact_correct,fuzzy_correct
+pain where,where pain,Where is the pain?,UNKNOWN_PHRASE,Where is the pain?,1.0,pain where,False,True
+medicine allergy you,you medicine allergy,Are you allergic to any medicine?,UNKNOWN_PHRASE,Are you allergic to any medicine?,1.0,medicine allergy you,False,True
+doctor wait please,doctor please wait,Please wait for the doctor.,UNKNOWN_PHRASE,Please wait for the doctor.,1.0,doctor wait please,False,True
+breathing difficult you,breathing you difficult,Do you have difficulty breathing?,UNKNOWN_PHRASE,Do you have difficulty breathing?,1.0,breathing difficult you,False,True
+medicine after food take,medicine food after take,Take the medicine after food.,UNKNOWN_PHRASE,Take the medicine after food.,1.0,medicine after food take,False,True
+come back week one,come week,Come back after one week.,UNKNOWN_PHRASE,Come back after one week.,0.5,come back week one,False,True
+fever you have,you fever,Do you have a fever?,UNKNOWN_PHRASE,Do you have a fever?,0.6666666666666666,fever you have,False,True
+blood pressure check need,blood pressure need,We need to check your blood pressure.,UNKNOWN_PHRASE,We need to check your blood pressure.,0.75,blood pressure check need,False,True
+ambulance call need,ambulance need,We need to call an ambulance.,UNKNOWN_PHRASE,We need to call an ambulance.,0.6666666666666666,ambulance call need,False,True
+name your what,your name what,What is your name?,UNKNOWN_PHRASE,What is your name?,1.0,name your what,False,True

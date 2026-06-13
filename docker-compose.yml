@@ -1,0 +1,37 @@
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: ksl-mongo
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    ports:
+      - "27017:27017"
+
+  ksl-jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ksl-jupyter
+    depends_on:
+      - mongo
+    ports:
+      - "8888:8888"
+      - "5151:5151"
+    volumes:
+      - ./dataset:/workspace/dataset
+      - fiftyone_db:/root/.fiftyone
+      - huggingface_cache:/root/.cache/huggingface
+      - pip_cache:/root/.cache/pip
+    environment:
+      - FIFTYONE_DATABASE_URI=mongodb://mongo:27017
+      - FIFTYONE_DEFAULT_APP_ADDRESS=0.0.0.0
+      - FIFTYONE_DEFAULT_APP_PORT=5151
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
+
+volumes:
+  fiftyone_db:
+  huggingface_cache:
+  pip_cache:
+  mongo_data:

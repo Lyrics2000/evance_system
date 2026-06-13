@@ -1,0 +1,21 @@
+input_text,target_text,domain,priority
+translate gloss to healthcare text: pain where,Where is the pain?,triage,critical
+translate gloss to healthcare text: you chest pain have,Do you have chest pain?,emergency,critical
+translate gloss to healthcare text: medicine allergy you,Are you allergic to any medicine?,medicine,critical
+translate gloss to healthcare text: medicine take day two,Take this medicine twice a day.,pharmacy,important
+translate gloss to healthcare text: come back week one,Come back after one week.,follow_up,normal
+translate gloss to healthcare text: doctor wait please,Please wait for the doctor.,reception,normal
+translate gloss to healthcare text: breathing difficult you,Do you have difficulty breathing?,emergency,critical
+translate gloss to healthcare text: pregnant you,Are you pregnant?,assessment,important
+translate gloss to healthcare text: medicine today take you,Have you taken medicine today?,medicine,important
+translate gloss to healthcare text: hurt where show me,Show me where it hurts.,diagnosis,critical
+translate gloss to healthcare text: fever you have,Do you have a fever?,diagnosis,important
+translate gloss to healthcare text: head pain you,Do you have a headache?,diagnosis,normal
+translate gloss to healthcare text: blood pressure check need,We need to check your blood pressure.,emergency,important
+translate gloss to healthcare text: ambulance call need,We need to call an ambulance.,emergency,critical
+translate gloss to healthcare text: medicine after food take,Take the medicine after food.,pharmacy,important
+translate gloss to healthcare text: medicine before food take,Take the medicine before food.,pharmacy,important
+translate gloss to healthcare text: name your what,What is your name?,reception,normal
+translate gloss to healthcare text: age your what,What is your age?,reception,normal
+translate gloss to healthcare text: diabetes you have,Do you have diabetes?,assessment,important
+translate gloss to healthcare text: hospital admit need,You need to be admitted to the hospital.,assessment,critical

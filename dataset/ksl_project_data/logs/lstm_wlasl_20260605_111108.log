@@ -1,0 +1,10 @@
+2026-06-05 11:11:08,301 | INFO | LSTM notebook started
+2026-06-05 11:14:11,871 | INFO | Loading existing local WLASL dataset
+2026-06-05 11:17:48,359 | INFO | Processed 10/67 videos
+2026-06-05 11:18:05,551 | INFO | Processed 20/67 videos
+2026-06-05 11:18:21,676 | INFO | Processed 30/67 videos
+2026-06-05 11:18:51,008 | INFO | Processed 40/67 videos
+2026-06-05 11:19:15,511 | INFO | Processed 50/67 videos
+2026-06-05 11:19:35,484 | INFO | Processed 60/67 videos
+2026-06-05 11:19:49,514 | INFO | Saved sequence cache: /workspace/dataset/ksl_project_data/features/wlasl_lstm_sequences_fixed_classes.joblib
+2026-06-05 11:19:49,517 | INFO | Failed videos: 0

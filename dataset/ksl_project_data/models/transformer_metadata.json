@@ -1,0 +1,23 @@
+{
+  "model": "Transformer Encoder landmark baseline",
+  "dataset": "Voxel51/WLASL",
+  "selected_classes": [
+    "before",
+    "computer",
+    "cool",
+    "cousin",
+    "drink"
+  ],
+  "feature_type": "MediaPipe pose + hand + face landmark sequences",
+  "sequence_length": 60,
+  "frame_stride": 2,
+  "num_samples": 67,
+  "input_size": 1629,
+  "d_model": 128,
+  "nhead": 4,
+  "num_layers": 2,
+  "accuracy": 0.5294117647058824,
+  "weighted_precision": 0.46078431372549017,
+  "weighted_recall": 0.5294117647058824,
+  "weighted_f1": 0.4817927170868347
+}

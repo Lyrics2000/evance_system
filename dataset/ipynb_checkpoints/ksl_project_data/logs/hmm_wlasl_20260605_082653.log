@@ -1,0 +1,53 @@
+2026-06-05 08:26:53,336 | INFO | HMM notebook started
+2026-06-05 08:27:29,899 | INFO | Loading existing local WLASL dataset
+2026-06-05 08:27:29,977 | INFO | Dataset loaded: Voxel51/WLASL
+2026-06-05 08:27:29,979 | INFO | Total samples: 11980
+2026-06-05 08:30:49,618 | INFO | Extracting HMM landmark sequences
+2026-06-05 08:31:11,785 | INFO | Processed 10/67 videos
+2026-06-05 08:31:31,922 | INFO | Processed 20/67 videos
+2026-06-05 08:32:02,275 | INFO | Processed 30/67 videos
+2026-06-05 08:32:23,222 | INFO | Processed 40/67 videos
+2026-06-05 08:32:50,174 | INFO | Processed 50/67 videos
+2026-06-05 08:33:13,846 | INFO | Processed 60/67 videos
+2026-06-05 08:33:25,161 | INFO | Saved HMM sequence cache: /workspace/dataset/ipynb_checkpoints/ksl_project_data/features/wlasl_hmm_sequences.joblib
+2026-06-05 08:33:25,168 | INFO | Failed videos: 0
+2026-06-05 08:34:31,022 | INFO | Training HMM for class: before, sequences: 11
+2026-06-05 08:34:32,009 | INFO | Training HMM for class: computer, sequences: 10
+2026-06-05 08:34:32,406 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,413 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,423 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,432 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,441 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,450 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,459 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,469 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,477 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,487 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,497 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,505 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,512 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,522 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,528 | INFO | Training HMM for class: cool, sequences: 10
+2026-06-05 08:34:32,667 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,673 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,680 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,691 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,698 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,706 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,712 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,720 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,726 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:32,736 | INFO | Training HMM for class: cousin, sequences: 10
+2026-06-05 08:34:33,007 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,017 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,027 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,040 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,049 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,062 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,071 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,083 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,091 | INFO | Training HMM for class: drink, sequences: 9
+2026-06-05 08:34:33,306 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,320 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,329 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-06-05 08:34:33,344 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.

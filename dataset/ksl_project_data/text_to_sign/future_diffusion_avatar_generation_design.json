@@ -1,0 +1,29 @@
+{
+  "model_name": "Future diffusion-based sign motion generator",
+  "current_status": "design_only_not_trained",
+  "reason_not_trained_now": "Requires validated KSL motion dataset, signer diversity, and more compute.",
+  "input": {
+    "type": "KSL gloss sequence or healthcare text embedding",
+    "example": "medicine take day two"
+  },
+  "output": {
+    "type": "sign motion sequence",
+    "shape_example": "60_frames x 75_joints x 3_coordinates",
+    "render_target": "2D skeleton, 3D avatar, or sign video animation"
+  },
+  "future_training_data_needed": [
+    "validated KSL healthcare phrase videos",
+    "frame-level pose and hand landmarks",
+    "gloss labels",
+    "healthcare text labels",
+    "multiple signers",
+    "lighting/background variation"
+  ],
+  "future_model_pipeline": [
+    "text_to_gloss_model",
+    "gloss_embedding",
+    "conditional_diffusion_motion_generator",
+    "motion_smoothing",
+    "avatar_renderer"
+  ]
+}

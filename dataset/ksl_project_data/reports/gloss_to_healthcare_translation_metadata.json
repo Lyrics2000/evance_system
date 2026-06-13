@@ -1,0 +1,36 @@
+{
+  "notebook": "06_gloss_to_healthcare_text_translation_baseline.ipynb",
+  "stage": "Language translation baseline",
+  "input": "Recognized sign gloss sequence",
+  "output": "Natural healthcare sentence",
+  "models_used": [
+    {
+      "name": "ExactRuleBasedTranslator",
+      "type": "rule-based dictionary model",
+      "purpose": "Maps exact normalized glosses to healthcare sentences"
+    },
+    {
+      "name": "FuzzyTokenTranslator",
+      "type": "token-overlap similarity model",
+      "purpose": "Handles reordered or partially recognized glosses"
+    },
+    {
+      "name": "T5/mT5 preparation",
+      "type": "future transformer language model preparation",
+      "purpose": "Prepares input-target pairs for future gloss-to-text fine-tuning"
+    }
+  ],
+  "exact_translator_accuracy_on_simulated_outputs": 0.0,
+  "fuzzy_translator_accuracy_on_simulated_outputs": 1.0,
+  "number_of_phrase_pairs": 20,
+  "generated_files": {
+    "phrase_dataset": "/workspace/dataset/ksl_project_data/language_translation/healthcare_gloss_phrase_dataset.csv",
+    "translation_results": "/workspace/dataset/ksl_project_data/reports/gloss_to_healthcare_translation_results.csv",
+    "t5_dataset": "/workspace/dataset/ksl_project_data/language_translation/t5_gloss_to_healthcare_text_dataset.csv",
+    "t5_train": "/workspace/dataset/ksl_project_data/language_translation/t5_train.csv",
+    "t5_test": "/workspace/dataset/ksl_project_data/language_translation/t5_test.csv",
+    "phrase_mapping": "/workspace/dataset/ksl_project_data/models/gloss_to_healthcare_phrase_mapping.json",
+    "future_model_plan": "/workspace/dataset/ksl_project_data/language_translation/future_language_model_plan.json"
+  },
+  "created_at": "2026-06-05T12:34:17.595961"
+}

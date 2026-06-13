@@ -1,0 +1,16 @@
+2026-06-05 07:32:59,218 | INFO | Random Forest notebook started
+2026-06-05 07:33:09,476 | INFO | Loading existing local WLASL dataset
+2026-06-05 07:33:09,540 | INFO | Dataset loaded: Voxel51/WLASL
+2026-06-05 07:33:09,550 | INFO | Total samples: 11980
+2026-06-05 07:34:05,998 | INFO | Extracting Random Forest features
+2026-06-05 07:34:25,883 | INFO | Processed 10/79 videos
+2026-06-05 07:34:47,316 | INFO | Processed 20/79 videos
+2026-06-05 07:35:09,871 | INFO | Processed 30/79 videos
+2026-06-05 07:35:29,760 | INFO | Processed 40/79 videos
+2026-06-05 07:35:49,073 | INFO | Processed 50/79 videos
+2026-06-05 07:36:13,522 | INFO | Processed 60/79 videos
+2026-06-05 07:36:34,224 | INFO | Processed 70/79 videos
+2026-06-05 07:36:52,848 | INFO | Saved feature cache: /workspace/dataset/ipynb_checkpoints/ksl_project_data/features/wlasl_random_forest_features.npz
+2026-06-05 07:36:52,851 | INFO | Failed videos: 0
+2026-06-05 07:37:12,028 | INFO | Training Random Forest model
+2026-06-05 07:37:13,339 | INFO | Random Forest training complete

@@ -1,0 +1,6 @@
+input_text,target_text,domain,priority
+translate gloss to healthcare text: breathing difficult you,Do you have difficulty breathing?,emergency,critical
+translate gloss to healthcare text: hospital admit need,You need to be admitted to the hospital.,assessment,critical
+translate gloss to healthcare text: blood pressure check need,We need to check your blood pressure.,emergency,important
+translate gloss to healthcare text: age your what,What is your age?,reception,normal
+translate gloss to healthcare text: diabetes you have,Do you have diabetes?,assessment,important

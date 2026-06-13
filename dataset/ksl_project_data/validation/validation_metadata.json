@@ -1,0 +1,27 @@
+{
+  "notebook": "07_healthcare_phrase_validation_matrix.ipynb",
+  "stage": "Healthcare phrase and framework validation preparation",
+  "purpose": "Prepare structured validation matrices, questionnaire items, scoring templates, and summary templates for KSL healthcare phrase validation.",
+  "inputs": {
+    "phrase_dataset": "/workspace/dataset/ksl_project_data/language_translation/healthcare_gloss_phrase_dataset.csv"
+  },
+  "outputs": {
+    "validation_matrix": "/workspace/dataset/ksl_project_data/validation/healthcare_phrase_validation_matrix.csv",
+    "expert_review_questionnaire": "/workspace/dataset/ksl_project_data/validation/expert_review_questionnaire.csv",
+    "validation_scoring_template": "/workspace/dataset/ksl_project_data/validation/validation_scoring_template.csv",
+    "validation_summary_template": "/workspace/dataset/ksl_project_data/validation/validation_summary_template.csv",
+    "validation_rules": "/workspace/dataset/ksl_project_data/validation/validation_status_rules.json",
+    "example_scores_dummy": "/workspace/dataset/ksl_project_data/validation/example_validation_scores_dummy.csv",
+    "example_item_summary_dummy": "/workspace/dataset/ksl_project_data/validation/example_item_summary_dummy.csv",
+    "example_section_summary_dummy": "/workspace/dataset/ksl_project_data/validation/example_section_summary_dummy.csv"
+  },
+  "reviewer_groups": [
+    "ksl_interpreter",
+    "deaf_user",
+    "healthcare_worker",
+    "ict_ai_expert",
+    "academic_expert"
+  ],
+  "created_at": "2026-06-05T12:47:09.467879",
+  "important_note": "Dummy scores are for demonstration only and must not be reported as real validation evidence."
+}

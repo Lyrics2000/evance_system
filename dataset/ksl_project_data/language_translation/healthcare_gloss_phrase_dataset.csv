@@ -1,0 +1,21 @@
+id,domain,gloss,healthcare_text,priority
+1,triage,pain where,Where is the pain?,critical
+2,emergency,you chest pain have,Do you have chest pain?,critical
+3,medicine,medicine allergy you,Are you allergic to any medicine?,critical
+4,pharmacy,medicine take day two,Take this medicine twice a day.,important
+5,follow_up,come back week one,Come back after one week.,normal
+6,reception,doctor wait please,Please wait for the doctor.,normal
+7,emergency,breathing difficult you,Do you have difficulty breathing?,critical
+8,assessment,pregnant you,Are you pregnant?,important
+9,medicine,medicine today take you,Have you taken medicine today?,important
+10,diagnosis,hurt where show me,Show me where it hurts.,critical
+11,diagnosis,fever you have,Do you have a fever?,important
+12,diagnosis,head pain you,Do you have a headache?,normal
+13,emergency,blood pressure check need,We need to check your blood pressure.,important
+14,emergency,ambulance call need,We need to call an ambulance.,critical
+15,pharmacy,medicine after food take,Take the medicine after food.,important
+16,pharmacy,medicine before food take,Take the medicine before food.,important
+17,reception,name your what,What is your name?,normal
+18,reception,age your what,What is your age?,normal
+19,assessment,diabetes you have,Do you have diabetes?,important
+20,assessment,hospital admit need,You need to be admitted to the hospital.,critical

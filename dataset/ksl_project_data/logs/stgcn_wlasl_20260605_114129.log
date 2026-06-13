@@ -1,0 +1,16 @@
+2026-06-05 11:41:29,759 | INFO | ST-GCN notebook started
+2026-06-05 11:41:29,761 | INFO | Project directory: /workspace/dataset/ksl_project_data
+2026-06-05 11:42:37,377 | INFO | Loading existing local WLASL dataset
+2026-06-05 11:42:37,449 | INFO | Dataset loaded: Voxel51/WLASL
+2026-06-05 11:42:37,452 | INFO | Total samples: 11980
+2026-06-05 11:43:50,339 | INFO | Selected classes: ['before', 'computer', 'cool', 'cousin', 'drink']
+2026-06-05 11:43:50,341 | INFO | Selected usable video samples: 67
+2026-06-05 11:45:45,579 | INFO | Extracting ST-GCN graph sequences from videos
+2026-06-05 11:47:01,257 | INFO | Processed 10/67 videos
+2026-06-05 11:47:43,528 | INFO | Processed 20/67 videos
+2026-06-05 11:48:08,279 | INFO | Processed 30/67 videos
+2026-06-05 11:48:26,050 | INFO | Processed 40/67 videos
+2026-06-05 11:48:50,010 | INFO | Processed 50/67 videos
+2026-06-05 11:49:11,930 | INFO | Processed 60/67 videos
+2026-06-05 11:49:24,498 | INFO | Saved ST-GCN graph cache: /workspace/dataset/ksl_project_data/features/wlasl_stgcn_graph_sequences_fixed_classes.joblib
+2026-06-05 11:49:24,501 | INFO | Failed videos: 0

@@ -1,0 +1,44 @@
+{
+  "sign_to_text_endpoint": {
+    "method": "POST",
+    "path": "/api/sign-to-text/",
+    "input": [
+      "camera_frames",
+      "uploaded_video"
+    ],
+    "processing": [
+      "extract_landmarks",
+      "run_recognition_model",
+      "generate_gloss",
+      "translate_gloss_to_healthcare_text",
+      "optional_text_to_speech"
+    ],
+    "output": {
+      "recognized_gloss": "pain where",
+      "healthcare_text": "Where is the pain?",
+      "confidence": 0.85
+    }
+  },
+  "text_to_sign_endpoint": {
+    "method": "POST",
+    "path": "/api/text-to-sign/",
+    "input": {
+      "text": "Take this medicine twice a day."
+    },
+    "processing": [
+      "normalize_text",
+      "map_text_to_gloss",
+      "map_gloss_to_sign_assets",
+      "future_avatar_or_diffusion_generation"
+    ],
+    "output": {
+      "gloss": "medicine take day two",
+      "sign_assets": [
+        "assets/signs/medicine.mp4",
+        "assets/signs/take.mp4",
+        "assets/signs/day.mp4",
+        "assets/signs/two.mp4"
+      ]
+    }
+  }
+}

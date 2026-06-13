@@ -1,0 +1,22 @@
+{
+  "model": "Bidirectional LSTM",
+  "dataset": "Voxel51/WLASL",
+  "selected_classes": [
+    "before",
+    "computer",
+    "cool",
+    "cousin",
+    "drink"
+  ],
+  "feature_type": "MediaPipe Holistic landmark sequences",
+  "sequence_length": 60,
+  "frame_stride": 2,
+  "num_samples": 67,
+  "input_size": 1629,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "accuracy": 0.35294117647058826,
+  "weighted_precision": 0.29411764705882354,
+  "weighted_recall": 0.35294117647058826,
+  "weighted_f1": 0.2969187675070028
+}

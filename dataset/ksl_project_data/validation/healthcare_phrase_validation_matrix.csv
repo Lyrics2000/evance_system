@@ -1,0 +1,21 @@
+phrase_id,domain,priority,risk_level,validation_required,gloss,healthcare_text,clinical_use_case,ksl_interpreter_review,ksl_interpreter_comments,deaf_user_review,deaf_user_comments,healthcare_worker_review,healthcare_worker_comments,ict_ai_review,ict_ai_comments,revision_needed,final_validated_gloss,validation_status
+1,triage,critical,high,mandatory,pain where,Where is the pain?,Initial patient assessment and symptom location,pending,,pending,,pending,,pending,,,,pending
+2,emergency,critical,high,mandatory,you chest pain have,Do you have chest pain?,Emergency screening and urgent response,pending,,pending,,pending,,pending,,,,pending
+3,medicine,critical,high,mandatory,medicine allergy you,Are you allergic to any medicine?,Medication history and patient safety,pending,,pending,,pending,,pending,,,,pending
+4,pharmacy,important,medium,recommended,medicine take day two,Take this medicine twice a day.,Medication counselling and dosage instructions,pending,,pending,,pending,,pending,,,,pending
+5,follow_up,normal,low,recommended,come back week one,Come back after one week.,Follow-up instruction and care continuity,pending,,pending,,pending,,pending,,,,pending
+6,reception,normal,low,recommended,doctor wait please,Please wait for the doctor.,Patient registration and facility guidance,pending,,pending,,pending,,pending,,,,pending
+7,emergency,critical,high,mandatory,breathing difficult you,Do you have difficulty breathing?,Emergency screening and urgent response,pending,,pending,,pending,,pending,,,,pending
+8,assessment,important,medium,recommended,pregnant you,Are you pregnant?,Clinical assessment and patient history,pending,,pending,,pending,,pending,,,,pending
+9,medicine,important,medium,recommended,medicine today take you,Have you taken medicine today?,Medication history and patient safety,pending,,pending,,pending,,pending,,,,pending
+10,diagnosis,critical,high,mandatory,hurt where show me,Show me where it hurts.,Symptom clarification and diagnosis support,pending,,pending,,pending,,pending,,,,pending
+11,diagnosis,important,medium,recommended,fever you have,Do you have a fever?,Symptom clarification and diagnosis support,pending,,pending,,pending,,pending,,,,pending
+12,diagnosis,normal,low,recommended,head pain you,Do you have a headache?,Symptom clarification and diagnosis support,pending,,pending,,pending,,pending,,,,pending
+13,emergency,important,medium,recommended,blood pressure check need,We need to check your blood pressure.,Emergency screening and urgent response,pending,,pending,,pending,,pending,,,,pending
+14,emergency,critical,high,mandatory,ambulance call need,We need to call an ambulance.,Emergency screening and urgent response,pending,,pending,,pending,,pending,,,,pending
+15,pharmacy,important,medium,recommended,medicine after food take,Take the medicine after food.,Medication counselling and dosage instructions,pending,,pending,,pending,,pending,,,,pending
+16,pharmacy,important,medium,recommended,medicine before food take,Take the medicine before food.,Medication counselling and dosage instructions,pending,,pending,,pending,,pending,,,,pending
+17,reception,normal,low,recommended,name your what,What is your name?,Patient registration and facility guidance,pending,,pending,,pending,,pending,,,,pending
+18,reception,normal,low,recommended,age your what,What is your age?,Patient registration and facility guidance,pending,,pending,,pending,,pending,,,,pending
+19,assessment,important,medium,recommended,diabetes you have,Do you have diabetes?,Clinical assessment and patient history,pending,,pending,,pending,,pending,,,,pending
+20,assessment,critical,high,mandatory,hospital admit need,You need to be admitted to the hospital.,Clinical assessment and patient history,pending,,pending,,pending,,pending,,,,pending

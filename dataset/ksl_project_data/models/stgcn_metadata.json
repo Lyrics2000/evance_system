@@ -1,0 +1,21 @@
+{
+  "model": "Simple ST-GCN baseline",
+  "dataset": "Voxel51/WLASL",
+  "selected_classes": [
+    "before",
+    "computer",
+    "cool",
+    "cousin",
+    "drink"
+  ],
+  "feature_type": "MediaPipe pose + left hand + right hand graph sequences",
+  "sequence_length": 60,
+  "frame_stride": 2,
+  "num_samples": 67,
+  "num_graph_nodes": 75,
+  "num_coordinates": 3,
+  "accuracy": 0.4117647058823529,
+  "weighted_precision": 0.2529411764705883,
+  "weighted_recall": 0.4117647058823529,
+  "weighted_f1": 0.29327731092436976
+}

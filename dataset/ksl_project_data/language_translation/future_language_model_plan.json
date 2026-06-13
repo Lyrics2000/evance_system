@@ -1,0 +1,9 @@
+{
+  "current_notebook_model_1": "Exact rule-based translator",
+  "current_notebook_model_2": "Fuzzy token-overlap translator",
+  "future_model_1": "T5-small",
+  "future_model_2": "mT5-small",
+  "future_model_3": "ByT5-small",
+  "recommended_future_model": "mT5-small",
+  "reason": "mT5 is more suitable for multilingual gloss-to-text transformation involving English, Kiswahili, and KSL-related phrase structures."
+}

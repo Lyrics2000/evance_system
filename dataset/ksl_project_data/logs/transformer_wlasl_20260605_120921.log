@@ -1,0 +1,16 @@
+2026-06-05 12:09:21,029 | INFO | Transformer Encoder notebook started
+2026-06-05 12:09:21,031 | INFO | Project directory: /workspace/dataset/ksl_project_data
+2026-06-05 12:10:05,207 | INFO | Loading existing local WLASL dataset
+2026-06-05 12:10:05,282 | INFO | Dataset loaded: Voxel51/WLASL
+2026-06-05 12:10:05,285 | INFO | Total samples: 11980
+2026-06-05 12:11:28,479 | INFO | Selected classes: ['before', 'computer', 'cool', 'cousin', 'drink']
+2026-06-05 12:11:28,481 | INFO | Selected usable video samples: 67
+2026-06-05 12:12:52,945 | INFO | Extracting Transformer landmark sequences from videos
+2026-06-05 12:13:47,099 | INFO | Processed 10/67 videos
+2026-06-05 12:14:44,078 | INFO | Processed 20/67 videos
+2026-06-05 12:15:15,753 | INFO | Processed 30/67 videos
+2026-06-05 12:15:49,299 | INFO | Processed 40/67 videos
+2026-06-05 12:16:25,997 | INFO | Processed 50/67 videos
+2026-06-05 12:16:52,650 | INFO | Processed 60/67 videos
+2026-06-05 12:17:10,573 | INFO | Saved Transformer sequence cache: /workspace/dataset/ksl_project_data/features/wlasl_transformer_sequences_fixed_classes.joblib
+2026-06-05 12:17:10,575 | INFO | Failed videos: 0

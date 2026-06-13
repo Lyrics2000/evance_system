@@ -1,0 +1,41 @@
+{
+  "notebook": "08_text_to_sign_generation_design.ipynb",
+  "stage": "Text-to-sign generation design",
+  "direction": "healthcare worker text/speech to KSL gloss/sign/avatar output",
+  "current_models_used": [
+    {
+      "name": "ExactTextToGlossMapper",
+      "type": "rule-based dictionary mapper",
+      "purpose": "Maps known healthcare text exactly to KSL-style gloss"
+    },
+    {
+      "name": "FuzzyTextToGlossMapper",
+      "type": "token-overlap fuzzy mapper",
+      "purpose": "Maps similar healthcare text to the closest known gloss phrase"
+    },
+    {
+      "name": "SignAssetDictionary",
+      "type": "asset lookup model",
+      "purpose": "Maps gloss tokens to sign video/avatar asset placeholders"
+    }
+  ],
+  "future_models_designed": [
+    {
+      "name": "mT5/T5 text-to-gloss model",
+      "purpose": "Generalize healthcare text to KSL gloss beyond fixed phrase matching"
+    },
+    {
+      "name": "Diffusion-based sign motion generator",
+      "purpose": "Generate sign/avatar motion sequences from gloss or text embeddings"
+    }
+  ],
+  "generated_files": {
+    "asset_dictionary": "/workspace/dataset/ksl_project_data/text_to_sign/sign_asset_dictionary.csv",
+    "demo_outputs": "/workspace/dataset/ksl_project_data/text_to_sign/text_to_sign_demo_outputs.json",
+    "text_to_gloss_dataset": "/workspace/dataset/ksl_project_data/text_to_sign/text_to_gloss_training_dataset.csv",
+    "future_diffusion_design": "/workspace/dataset/ksl_project_data/text_to_sign/future_diffusion_avatar_generation_design.json",
+    "api_design": "/workspace/dataset/ksl_project_data/text_to_sign/bidirectional_webapp_api_design.json",
+    "text_to_sign_mapping": "/workspace/dataset/ksl_project_data/models/text_to_sign_phrase_mapping.json"
+  },
+  "created_at": "2026-06-05T13:01:34.529141"
+}
