@@ -1,0 +1,57 @@
+{
+  "model": "GaussianHMM per class, left-to-right (Bakis) topology, fixed transitions",
+  "notebook": "022_hmm_wlasl_baselin.ipynb",
+  "generated_at": "2026-08-16T12:50:24",
+  "dataset": "Voxel51/WLASL",
+  "classes": [
+    "before",
+    "computer",
+    "cool",
+    "cousin",
+    "drink"
+  ],
+  "n_sequences": 67,
+  "frame_feature_dim": 309,
+  "raw_frame_dim": 1629,
+  "face_landmarks_used": false,
+  "n_pca_components": 16,
+  "n_hmm_states": 3,
+  "train_transitions": false,
+  "cv_folds": 5,
+  "landmark_detection_rate_pct": {
+    "pose": 99.59,
+    "left_hand": 22.61,
+    "right_hand": 62.3
+  },
+  "majority_baseline_accuracy": 0.22388059701492538,
+  "hmm": {
+    "accuracy": 0.5074626865671642,
+    "weighted_precision": 0.5169332277321742,
+    "weighted_recall": 0.5074626865671642,
+    "weighted_f1": 0.5090421740089444,
+    "n_abstain": 0,
+    "distinct_classes_predicted": 5
+  },
+  "hmm_fold_accuracies": [
+    0.2857142857142857,
+    0.5,
+    0.5384615384615384,
+    0.6923076923076923,
+    0.5384615384615384
+  ],
+  "hmm_fold_accuracy_mean": 0.510989010989011,
+  "hmm_fold_accuracy_std": 0.13057978705505888,
+  "dtw_1nn": {
+    "accuracy": 0.6119402985074627,
+    "weighted_precision": 0.6111335803499983,
+    "weighted_recall": 0.6119402985074627,
+    "weighted_f1": 0.6081935151827071,
+    "n_abstain": 0,
+    "distinct_classes_predicted": 5
+  },
+  "previous_notebook": {
+    "name": "02_hmm_wlasl_baseline.ipynb",
+    "accuracy": 0.2353,
+    "failure": "collapsed to single class via -inf argmax"
+  }
+}

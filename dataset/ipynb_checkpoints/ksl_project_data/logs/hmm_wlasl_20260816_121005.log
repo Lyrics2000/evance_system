@@ -1,0 +1,10 @@
+2026-08-16 12:10:05,177 | INFO | HMM notebook started
+2026-08-16 12:10:14,365 | INFO | Loading WLASL from Hugging Face/FiftyOne hub
+2026-08-16 12:10:15,346 | INFO | Downloading config file fiftyone.yml from Voxel51/WLASL
+2026-08-16 12:10:16,037 | INFO | Loading dataset
+2026-08-16 12:10:35,209 | INFO | Importing samples...
+2026-08-16 12:10:36,147 | INFO |  100% |█████████████| 11980/11980 [349.9ms elapsed, 0s remaining, 34.2K samples/s]      
+2026-08-16 12:10:36,151 | INFO | Importing frames...
+2026-08-16 12:11:00,539 | INFO |  100% |███████████| 828093/828093 [14.8s elapsed, 0s remaining, 58.0K samples/s]      
+2026-08-16 12:11:00,586 | INFO | Migrating dataset 'Voxel51/WLASL' to v1.3.2
+2026-08-16 12:11:01,271 | INFO | Downloading 11980 media files...

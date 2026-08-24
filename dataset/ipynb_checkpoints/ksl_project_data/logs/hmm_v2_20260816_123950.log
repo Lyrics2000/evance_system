@@ -1,0 +1,57 @@
+2026-08-16 12:39:50,248 | INFO    | HMM v2 notebook started
+2026-08-16 12:40:03,811 | INFO    | Loading existing local WLASL dataset
+2026-08-16 12:40:03,851 | INFO    | Dataset loaded: Voxel51/WLASL
+2026-08-16 12:40:03,854 | INFO    | Total samples: 11980
+2026-08-16 12:40:18,690 | INFO    | Loading existing local WLASL dataset
+2026-08-16 12:40:18,707 | INFO    | Dataset loaded: Voxel51/WLASL
+2026-08-16 12:40:18,711 | INFO    | Total samples: 11980
+2026-08-16 12:42:34,553 | WARNING | [HMM-1004] 7 class(es) dropped for having zero video files on disk: ['cool', 'thin', 'drink', 'go', 'computer', 'cousin', 'help']. Check download_wlasl.py - this is recoverable data.
+2026-08-16 12:44:52,491 | INFO    | Loading cached sequences from /workspace/dataset/ipynb_checkpoints/ksl_project_data/features/wlasl_hmm_sequences.joblib
+2026-08-16 12:46:12,775 | INFO    | Building corrected features (1629 -> 309 dims per frame)...
+2026-08-16 12:46:13,061 | WARNING | [HMM-1007] left_hand detected in only 22.6% of frames. This caps achievable accuracy regardless of model choice.
+2026-08-16 12:47:32,551 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,561 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,570 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,586 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,598 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,607 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,677 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,684 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,694 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,699 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:32,707 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,002 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,010 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,016 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,025 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,037 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,048 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,059 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,069 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,077 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,085 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,093 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,174 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,180 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,187 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:47:33,194 | WARNING | Some rows of transmat_ have zero sum because no transition from the state was ever observed.
+2026-08-16 12:48:22,695 | INFO    | fold 1/5 | train=53 test=14 | models=5 | evr=0.888 | acc=0.2857 | abstain=0
+2026-08-16 12:48:24,921 | INFO    | fold 2/5 | train=53 test=14 | models=5 | evr=0.891 | acc=0.5000 | abstain=0
+2026-08-16 12:48:26,549 | INFO    | fold 3/5 | train=54 test=13 | models=5 | evr=0.891 | acc=0.5385 | abstain=0
+2026-08-16 12:48:28,000 | WARNING | Model is not converging.  Current: -10442.179654981406 is not greater than -10442.179654599595. Delta is -3.818113327724859e-07
+2026-08-16 12:48:28,206 | INFO    | fold 4/5 | train=54 test=13 | models=5 | evr=0.889 | acc=0.6923 | abstain=0
+2026-08-16 12:48:29,737 | INFO    | fold 5/5 | train=54 test=13 | models=5 | evr=0.884 | acc=0.5385 | abstain=0
+2026-08-16 12:49:46,024 | INFO    | fold 1/5 | train=53 test=14 | models=5 | evr=0.888 | acc=0.2857 | abstain=0
+2026-08-16 12:49:48,147 | INFO    | fold 2/5 | train=53 test=14 | models=5 | evr=0.891 | acc=0.5000 | abstain=0
+2026-08-16 12:49:49,514 | INFO    | fold 3/5 | train=54 test=13 | models=5 | evr=0.891 | acc=0.5385 | abstain=0
+2026-08-16 12:49:50,913 | WARNING | Model is not converging.  Current: -10442.179654981406 is not greater than -10442.179654599595. Delta is -3.818113327724859e-07
+2026-08-16 12:49:51,099 | INFO    | fold 4/5 | train=54 test=13 | models=5 | evr=0.889 | acc=0.6923 | abstain=0
+2026-08-16 12:49:52,519 | INFO    | fold 5/5 | train=54 test=13 | models=5 | evr=0.884 | acc=0.5385 | abstain=0
+2026-08-16 12:50:23,321 | INFO    | Fitting final model on all 67 sequences...
+2026-08-16 12:50:24,117 | INFO    |   class 0: 15 sequences, 459 frames
+2026-08-16 12:50:24,224 | INFO    |   class 1: 14 sequences, 480 frames
+2026-08-16 12:50:24,302 | INFO    |   class 2: 13 sequences, 363 frames
+2026-08-16 12:50:24,425 | INFO    |   class 3: 13 sequences, 516 frames
+2026-08-16 12:50:24,489 | INFO    |   class 4: 12 sequences, 402 frames
+2026-08-16 12:50:24,501 | INFO    | Saved model package: /workspace/dataset/ipynb_checkpoints/ksl_project_data/models/hmm_wlasl_v2_package.joblib
+2026-08-16 12:50:24,501 | INFO    | Saved metadata     : /workspace/dataset/ipynb_checkpoints/ksl_project_data/models/hmm_v2_metadata.json
