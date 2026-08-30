@@ -1,0 +1,69 @@
+{
+  "clean": [
+    {
+      "model": "Exact rule-based",
+      "exact_match": 100.0,
+      "coverage": 100.0,
+      "BLEU": 100.0,
+      "chrF": 100.0,
+      "ROUGE1": 100.0,
+      "ROUGE2": 100.0,
+      "ROUGEL": 100.0,
+      "METEOR": 99.5,
+      "WER": 0.0
+    },
+    {
+      "model": "Fuzzy token-overlap",
+      "exact_match": 100.0,
+      "coverage": 100.0,
+      "BLEU": 100.0,
+      "chrF": 100.0,
+      "ROUGE1": 100.0,
+      "ROUGE2": 100.0,
+      "ROUGEL": 100.0,
+      "METEOR": 99.5,
+      "WER": 0.0
+    }
+  ],
+  "noisy": [
+    {
+      "model": "Exact rule-based",
+      "exact_match": 10.0,
+      "coverage": 10.0,
+      "BLEU": 0.0,
+      "chrF": 7.81,
+      "ROUGE1": 10.0,
+      "ROUGE2": 10.0,
+      "ROUGEL": 10.0,
+      "METEOR": 9.87,
+      "WER": 93.14
+    },
+    {
+      "model": "Fuzzy token-overlap",
+      "exact_match": 100.0,
+      "coverage": 100.0,
+      "BLEU": 100.0,
+      "chrF": 100.0,
+      "ROUGE1": 100.0,
+      "ROUGE2": 100.0,
+      "ROUGEL": 100.0,
+      "METEOR": 99.5,
+      "WER": 0.0
+    }
+  ],
+  "generalization": [
+    {
+      "model": "Fuzzy token-overlap (nearest-neighbour retrieval)",
+      "exact_match": 0.0,
+      "coverage": 90.0,
+      "BLEU": 9.79,
+      "chrF": 33.71,
+      "ROUGE1": 39.53,
+      "ROUGE2": 27.29,
+      "ROUGEL": 39.53,
+      "METEOR": 37.33,
+      "WER": 70.59
+    }
+  ],
+  "n_phrases": 20
+}
